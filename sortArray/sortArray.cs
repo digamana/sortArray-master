@@ -293,7 +293,7 @@ namespace sortArray
                     changeAdr(iInput,i,j);
                     i++;
                 }
-                //向右掃描
+                //向左掃描
                 while (i < j && iPivot > iInput[i]) i++;
                 if (i < j)
                 {
